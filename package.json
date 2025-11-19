@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/meteor-intellisense-methods.git"
+    "url": "https://github.com/BastienRodz/meteor-intellisense-methods.git"
   },
   "engines": {
     "vscode": "^1.60.0"

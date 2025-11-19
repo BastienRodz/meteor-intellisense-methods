@@ -1,74 +1,73 @@
 # Meteor Methods Navigation
 
-Une extension VS Code qui permet de naviguer rapidement vers les définitions de collections et méthodes Meteor en utilisant le "Go to Definition" (F12).
+A VS Code extension that allows you to quickly navigate to Meteor collection and method definitions using "Go to Definition" (F12).
 
-## Fonctionnalités
+## Features
 
-- **Navigation vers les collections** : Cliquez sur le nom d'une collection (ex: `Booking`) pour aller à sa définition
-- **Navigation vers les méthodes** : Cliquez sur une méthode (ex: `Booking.methods.create`) pour aller à sa définition
-- **Support multi-langages** : Fonctionne avec JavaScript, TypeScript, JSX et TSX
+- **Navigate to collections** : Click on a collection name (e.g., `CollectionName`) to go to its definition
+- **Navigate to methods** : Click on a method's name (e.g., `CollectionName.methods.methodsName`) to go to its definition by clicking on *"methodsName"*
+- **Multi-language support** : Works with JavaScript, TypeScript, JSX, and TSX
 
-## Comment utiliser
+## How to use
 
-1. Placez votre curseur sur une collection ou une méthode Meteor
-2. Appuyez sur `F12` ou faites un clic droit → "Go to Definition"
-3. L'extension vous amènera directement à la définition
+1. Place your cursor on a Meteor collection or method
+2. Press `F12` or right-click → "Go to Definition" **OR** On MacOS → CMD + Left-Click
+3. The extension will take you directly to the definition
 
-### Exemples
+### Examples
 
 ```javascript
-// Cliquez sur "Booking" pour aller à la définition de la collection
+// Click on "Booking" to go to the collection definition
 Booking.methods.create({ ... });
 
-// Cliquez sur "create" pour aller à la définition de la méthode
+// Click on "create" to go to the method definition
 Booking.methods.create({ ... });
 ```
 
-## Structure de projet attendue
+## Expected project structure
 
-L'extension cherche les fichiers dans la structure suivante :
+The extension looks for files in the following structure:
 
 ```
 project/
 ├── imports/
 │   └── api/
 │       └── [collection-name]/
-│           ├── index.js          (définition de la collection)
+│           ├── index.js          (collection definition)
 │           └── server/
-│               └── methods.js     (définition des méthodes)
+│               └── methods.js     (method definitions)
 ```
 
 ## Installation
 
-### Depuis le marketplace VS Code
+### From VS Code marketplace
 
-1. Ouvrez VS Code
-2. Allez dans Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Recherchez "Meteor Methods Navigation"
-4. Cliquez sur Installer
+1. Open VSCode or Cursor
+2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "Meteor Methods Navigation"
+4. Click Install
 
-### Depuis un fichier .vsix
+### From a .vsix file
 
-1. Téléchargez le fichier `.vsix`
-2. Dans VS Code, allez dans Extensions
-3. Cliquez sur les trois points (...) → "Install from VSIX..."
-4. Sélectionnez le fichier téléchargé
+1. Download the `.vsix` file
+2. In VS Code, go to Extensions
+3. Click the three dots (...) → "Install from VSIX..."
+4. Select the downloaded file
 
-## Développement
+## Development
 
 ```bash
-# Installer les dépendances
+# Install dependencies
 npm install
 
-# Créer le package .vsix
+# Create the .vsix package
 npm run package
 ```
 
-## Licence
+## License
 
-MIT License - Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+MIT License - See the [LICENSE](LICENSE) file for more details.
 
-## Contribution
+## Contributing
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
-
+Contributions are welcome! Feel free to open an issue or a pull request.
