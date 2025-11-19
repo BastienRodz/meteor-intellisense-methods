@@ -2,7 +2,7 @@
   "name": "meteor-methods-navigation",
   "displayName": "Meteor Methods Navigation",
   "description": "Navigate to Meteor collection and method definitions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "EPL-2.0",
   "publisher": "BastienRodz",
   "repository": {
