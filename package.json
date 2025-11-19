@@ -3,7 +3,8 @@
   "displayName": "Meteor Methods Navigation",
   "description": "Navigate to Meteor collection and method definitions",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "EPL-2.0",
+  "publisher": "BastienRodz",
   "repository": {
     "type": "git",
     "url": "https://github.com/BastienRodz/meteor-intellisense-methods.git"

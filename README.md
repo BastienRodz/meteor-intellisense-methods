@@ -66,7 +66,7 @@ npm run package
 
 ## License
 
-MIT License - See the [LICENSE](LICENSE) file for more details.
+Eclipse Public License v2.0 - See the [LICENSE](LICENSE) file for more details.
 
 ## Contributing
 
