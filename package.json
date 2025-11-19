@@ -2,9 +2,9 @@
   "name": "meteor-methods-navigation",
   "displayName": "Meteor Methods Navigation",
   "description": "Navigate to Meteor collection and method definitions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "EPL-2.0",
-  "publisher": "BastienRodz",
+  "publisher": "nvm",
   "repository": {
     "type": "git",
     "url": "https://github.com/BastienRodz/meteor-intellisense-methods.git"
