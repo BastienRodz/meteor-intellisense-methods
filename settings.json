@@ -1,0 +1,26 @@
+{
+    "name": "meteor-methods-navigation",
+    "displayName": "Meteor Methods Navigation",
+    "description": "Navigate to Meteor collection and method definitions",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": ["Other"],
+    "activationEvents": ["onLanguage:javascript", "onLanguage:javascriptreact", "onLanguage:typescript", "onLanguage:typescriptreact"],
+    "main": "./extension.js",
+    "contributes": {
+        "languages": [
+            {
+                "id": "javascript",
+                "extensions": [".js", ".jsx"]
+            }
+        ]
+    },
+    "scripts": {
+        "package": "vsce package"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^2.22.0"
+    }
+}
